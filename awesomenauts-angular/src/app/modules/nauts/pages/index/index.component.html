@@ -1,0 +1,59 @@
+<h1>Nauts</h1>
+<hr />
+<div class="row">
+  <div class="col-xl-3 col-md-6 mb-4" *ngFor="let item of nauts">
+    <div class="card border-0 shadow">
+      <img src="{{ item.image_url }}" class="card-img-top mx-auto img-custom" alt="..." />
+      <div class="card-body text-center">
+        <h5 class="card-title mb-0">{{ item.name }}</h5>
+        <div class="card-text text-black-50">{{ item.role }}</div>
+        <!-- Button trigger modal -->
+        <button type="button" (click)="find(item.name)" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Details
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content" *ngIf="selectedNaut">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" >
+
+        <div class="container-fluid" *ngIf="selectedNaut">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col text-center">
+                  <img src="{{ selectedNaut.image_url}}" class="img-detail" />
+                </div>
+                <div class="col">
+                  <h2>{{ selectedNaut.name }}</h2>
+                  <hr>
+                  <h5>Description</h5>
+                  <p>
+                    {{ selectedNaut.description }}
+                  </p>
+                  <b>Difficulty: </b>{{ selectedNaut.difficulty }}
+                  <br>
+                  <b>Role: </b>{{ selectedNaut.role }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+

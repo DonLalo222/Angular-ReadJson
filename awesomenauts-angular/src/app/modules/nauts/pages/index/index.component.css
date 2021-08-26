@@ -1,0 +1,9 @@
+.img-custom{
+  width: auto;
+  height: 300px;
+  object-fit: contain;
+}
+
+.img-detail{
+  object-fit: contain;
+}

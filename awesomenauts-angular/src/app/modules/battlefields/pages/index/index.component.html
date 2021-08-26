@@ -1,0 +1,15 @@
+<div *ngIf="battlefields">
+
+  <div class="card-group">
+    <div class="card" *ngFor="let item of battlefields">
+      <img src="{{ item.splash_art }}" class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">{{ item.name }}</h5>
+        <p class="card-text">
+          {{ item.description }}
+        </p>
+      </div>
+      <img src="{{ item.map }}" class="card-img-bottom" alt="..." />
+    </div>
+  </div>
+</div>

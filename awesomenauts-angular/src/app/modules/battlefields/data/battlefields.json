@@ -1,0 +1,50 @@
+{
+  "battlefields": {
+    "ribbit":{
+      "name": "Ribbit IV",
+      "description": "Originally the planet was completely covered with swamps and forests, and inhabited by various amphibian species.Over time, the frogs moved out of the swamp and started building large cities. Now, only a small nature reserve remains. The rich Solar veins under the reserve have attracted the war, putting the last vegetation and wildlife in peril.",
+      "creep": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_ribbit_creep.png",
+      "hazard": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_ribbit_hazzard.png",
+      "hazard_text": "Roaming Solar Boss. Kill for extra team Solar!",
+      "splash_art": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_ribbit_background_wide.jpg",
+      "map": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_ribbit_thumb.png"
+    },
+    "ai_205":{
+      "name": "AI Station 205",
+      "description": "Within the Raki system the AI station 205 has been monitoring the star that is under attack of the Starstorm. While the Awesomenauts have been sent to the Starstorm to turn off its destructive gravitational collapse ray, and stop the system wide catastrophic event about to happen, the AI station has been equipped with an inferno device to stabilize the star and stop the space storm from forming.Unfortunately the station has had trouble harnessing the extreme stellar flares and sent out an emergency signal. The base structure is similar to other AI stations, but the explosive inferno device at the core of the station makes it a very perilous place.",
+      "creep": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_spacestation_creep.png",
+      "hazard": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_205_hazzard.png",
+      "hazard_text": "Inferno Device. Beware of the flames!",
+      "splash_art": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_205_background_wide.jpg",
+      "map" : "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_205_thumb.png"
+    },
+    "aiguillon":{
+      "name": "Aiguillon",
+      "description": "Legend tells the story of a giant cranky porcupine wandering through space. Furious at the sun for burning his eyes, he charged and killed both the light and himself. His prickly remains now orbit the dead sun and gave home to the Kremzon, a crude and devious species that spend most of their time in bustling cabarets and smokey cafés. Aiguillon's thorny rings conceal a mythical temple, rumored to hold the power of invisibility.",
+      "creep": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_aiguillon_creep.png",
+      "hazard": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_aiguillon_hazzard.png",
+      "hazard_text": "Orb of Aigullion. Grants invisibility!",
+      "splash_art": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_aiguillon_background_wide.jpg",
+      "map": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_aiguillon_thumb.png"
+    },
+    "ai_404":{
+      "name": "AI Station 404",
+      "description": "This AI station is built on the surface of an asteroid of solid Solar. These kind of asteroids are quite rare and it's no surprise the robots quickly tried to conquer it after discovery. The space station is now one of the most high tech weapon facilities in the galaxy. Flagship of the facility is the cromium gravitor device which manipulates gravity for experimental research.",
+      "creep": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_spacestation_creep.png",
+      "hazard": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_404_hazzard.png",
+      "hazard_text": "Cromium Gravitor. Reduced gravity field!",
+      "splash_art": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_404_background_wide.jpg",
+      "map": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_404_thumb.png"
+    }
+    ,
+    "sorona":{
+      "name": "Sorona",
+      "description": "Once a vibrant dinosaur planet, now a dead wasteland. Centuries ago, the planet was scorched by orbital nuclear bombardment, which transformed Sorona into a crude, uninhabitable place. Now only miners, static storms and radioactive giant worms scour the planet, and they are all unfriendly. The worms (quite hungry ones) feast on everything that moves: the miners, employees of lightning farms and even small space ships. Consider yourself warned!",
+      "creep": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_sorona_creep.png",
+      "hazard": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_sorona_hazzard.png",
+      "hazard_text": "Soronian Pit Worm. Devours in a single bite!",
+      "splash_art": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_sorona_background_wide.jpg",
+      "map": "https://www.awesomenauts.com/wp-content/uploads/2015/12/maps_sorona_thumb.png"
+    }
+  }
+}
